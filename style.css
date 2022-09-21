@@ -1,0 +1,350 @@
+
+header{
+    background: #fff;
+    padding: 28px 0;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo img{}
+
+nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #717171;
+    padding: 12px;
+
+}
+nav ul li a:hover{}
+
+.banner-section{
+    background-image: url(image/banner.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.banner-section .row {
+    justify-content: center; 
+}
+.banner-content {
+    align-items:center;
+    max-width:50%;
+    flex-basis:50%;
+    margin-top: 200px;
+    align-items: center;
+
+}
+.banner-content h1 {
+    font-size: 120px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.banner-content span {
+   
+    width: 100%;
+    height: 2px;
+    background-color: #15A4FA;
+    display: block;
+    margin-right: 60px;
+   
+}
+.banner-content p {
+    color: #fff;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+}
+.banner-content button {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    background: transparent;
+    border: 1px solid #15A4FA;
+    padding: 15px 40px;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.arrow-down{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    left: 50%;
+    bottom: 2em;
+    transform: translateX(-50%);
+}
+
+
+.about-section{
+    background-color: #f3f3f3;
+}
+
+
+
+.features-section{}
+
+.feature{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    text-align: center;
+    padding: 65px 30px;
+}
+.feature-icon{
+    width: 100px;
+    height: 100px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3eb2ff+50,59bcff+50 */
+background: rgb(62,178,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(62,178,255,1) 50%, rgba(89,188,255,1) 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(62,178,255,1) 50%,rgba(89,188,255,1) 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(62,178,255,1) 50%,rgba(89,188,255,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3eb2ff', endColorstr='#59bcff',GradientType=1 ); /* IE6-9 */
+
+    line-height: 100px;
+    margin: auto;
+}
+.feature-icon i{
+    color: #fff;
+    font-size: 50px;
+    line-height: 2;
+    text-shadow: 2px 3px 5px #717171;
+}
+.feature h3{
+    font-size: 22px;
+    color: rgba(36, 33, 33, 0.545);
+    margin-top: 20px;
+}
+.feature p{
+    font-size: 18px;
+    color: #717171;
+    margin-top: 5px;
+}
+
+
+.showcase-section{
+    background: #f3f3f3; ;
+}
+.showcase{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+}
+.showcase-details{
+    position: relative;
+}
+.showcase-details img{}
+
+.showcase-details .overlay{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background: #3baff7da;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.4s;
+
+
+}
+.showcase-details:hover .overlay{
+    opacity: 1;
+    height: 100%;
+
+}
+
+.showcase-details .search{
+    
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 30px;
+    height: 35px;
+    border: 1px solid #fff;
+    display:block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    transform: translate(-40%, -50%);
+    opacity: 0;
+    transition: all 0.7s;
+
+
+}
+.showcase-details:hover .search{
+    opacity: 1;
+    top:50%;
+
+}
+.showcase-details .link{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 30px;
+    height: 35px;
+    border: 1px solid #fff;
+    display:block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    transform: translate(-55%, -50%);
+    opacity: 0;
+    transition: all 0.7s;
+   
+}
+.showcase-details:hover .link{
+    opacity: 1;
+    top:50%;
+}
+
+
+
+.contact-section{
+    background-image: url(/image/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+.contact-section .row{
+    justify-content: center;
+}
+
+.contact-section .heading h2{
+    color: #fff;
+}
+
+.contact-form{
+    max-width: 60%;
+    flex-basis: 60%;
+
+}
+.contact-form form{
+    
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid#fff;
+    background: transparent;
+    text-transform: capitalize;
+    margin-bottom:  10px;
+    border-radius: 5px;
+
+  
+}
+
+.contact-form form{}
+.contact-form form ul{
+    align-items: center;
+}
+.contact-form form ul li{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.contact-form form ul li input{
+   width: auto;
+   
+}
+.contact-form form ul li input[type="checkbox"]{
+    width: auto;
+    
+
+}
+.contact-form form ul li input[type="submit"]{
+    width: auto;
+    float: right;
+    font-size: 20px;
+    padding: 12px 50px;
+    border-color: #15A4FA;
+    cursor: pointer;
+    
+}
+.contact-form form ul li input[type="submit"]:hover{
+    width: auto;
+    float: right;
+    font-size: 20px;
+    padding: 12px 50px;
+    border-color: transparent;
+    background: #15A4FA;
+    transition: all 0.6s;
+
+}
+
+.contact-form form ul li label{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+.footer-section{
+    color: #fff;
+    margin: 30px 0;
+}
+.copyright{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.copyright p{
+    font-size: 16px;
+    color: #999;
+}
+.copyright p a{
+    color: #999;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.social-link{
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.social-link ul{
+    justify-content: flex-end;
+}
+.social-link ul li{
+    display: inline-block;
+   
+}
+.social-link ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #15A4FA;
+    color: #fff;
+    font-size: 25px;
+    line-height: 40px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+.social-link ul li a:hover{
+    background-color: #999;
+    color: #15A4FA;
+
+}
+
